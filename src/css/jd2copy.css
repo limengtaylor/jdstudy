@@ -1,0 +1,312 @@
+html{
+    font-size: 16px;
+}
+.jd-container{
+    max-width: 640px;
+    width: 100%;
+}
+.jd-top{
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 3.125rem;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    z-index: 10;
+}
+/* .jd-header-cover{
+    opacity: 0;
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 3.125rem;
+} */
+.jd-header{
+/*     position: fixed;
+    box-sizing: border-box; */
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 3.125rem;
+    top: 0;
+/*     padding-left: 0;
+    padding-right: 0;
+    overflow: hidden; */
+}
+.jd-header .header-logo{
+    position:absolute;
+    left:18px;
+    top:14px;
+    width:1.25rem;
+    height:1rem;
+    background: url("../images/enum.png")no-repeat;
+    /* background-size:25px 19px; */
+    background-size:contain; 
+}  
+.jd-header .header-search{
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;  
+    padding-left: 4.6875rem;   
+    padding-right: .625rem;
+    left: 0;
+    top: 0;
+    width:100%;   
+    height:100%;  
+/*     margin-top:4px;  
+    border-radius:.9375rem;  
+    background: rgba(255,255,255,0.9);   
+    color:#999;   */
+}
+.jd-header .header-jd{
+    position: relative;
+    width: 1.25rem;
+    height: 1.25rem;
+    vertical-align: top;
+    padding-right: .625rem;
+    float: left;
+    background: url("../images/jd-sprites.png") no-repeat;
+    background-size: 1.25rem 1.25rem;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.jd-header .header-glass{    
+    position: relative;  
+    float: left; 
+    vertical-align: top;  
+    top:.5rem;   
+    width:.825px;   
+    height: 0.825rem;  
+    margin: 0 .3125rem 0 .625rem;
+    background: url("../images/search.png")no-repeat;   
+    background-size:contain;        
+}
+.jd-header .header-login{        
+    font-size: .8125rem;   
+    margin-top: .375rem;
+    color:#fff;   
+}
+.jd-slider{
+    top: 0;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+    height: 11.4375rem;   
+}
+.jd-slider .slider{
+    margin-top: -.875rem;
+    width: 100%;
+    height: 11.4375rem;   
+}
+.jd-slider .slider img{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 11.4375rem;
+    overflow: hidden;
+}
+.jd-slider .slider-index{
+    position: absolute;
+    bottom: 2.125rem;
+    left: 0;
+    text-align: center;
+    z-index: 11;
+    width: 100%;
+    overflow: hidden;
+}
+.jd-slider .slider-index li{
+    display: inline-block;
+    border-radius: 7px;
+    height: 6px;
+    width: 6px;
+    border: 1px solid #fff;
+    margin: 0 4px;
+}
+.jd-floor{
+    margin-top: -1.8125rem;
+    display: block;
+    position: relative;
+    border-radius: .625rem .625rem 0 0;
+/*     margin: 0;
+    padding: 0;
+    border: 0; */
+    font-size: 0;
+    width: 100%;
+    height: 6.25rem;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 10;
+}
+.jd-floor img{
+    display: block;
+    width: 33.33%;
+    float: left;
+    height: 6.25rem;
+    overflow: hidden;
+}
+.jd-nav{
+    /*     position: relative;
+        z-index: 10;
+        border-radius: .625rem .625rem 0 0; */
+    overflow: hidden;
+}
+.jd-nav ul li{
+    float: left;
+    width: 20%;
+    padding-top: 1rem;
+}
+.jd-nav ul li a img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin:auto;
+/*         position: absolute; */
+}
+.jd-news{
+    margin: 0 .5rem .5rem;
+    height: 1.875rem;
+    font-size: 12px;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 0 2.625rem 0 4.6875rem;
+    position: relative;
+}
+.jd-news .new-tit{
+    display: block;
+    position: absolute;
+    height: 1rem;
+    width: 4.5625rem;
+    top: .4375rem;
+    left: .5px;
+}
+.jd-news a img{
+    display: inline-block;
+    height: 1rem;
+    width: 4.5625rem;
+}
+.jd-news .news-list{
+/*     padding: 0 42px 0 75px; */
+    height: 1.875rem;
+    overflow: hidden;
+}
+.jd-news .news-list ul li{
+    height: 1.875rem;
+    line-height: 1.875rem;
+    right: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.jd-news .news-more{
+    font-size: 12px;
+    position: absolute;
+    top: .5rem;
+    right: .4375rem;
+    line-height: 1rem;
+}
+.jd-lottery{
+    width: 100%;
+    height: 7.5rem;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    margin-bottom: .5rem;
+}
+.jd-lottery .lot-col4{
+    width: 50%;
+    position: relative;
+    float: left;
+}
+.jd-lottery .lot-col2{
+    width: 25%;
+    position: relative;
+    float: left;
+}
+.jd-lottery img{
+    height: 100%;
+    width: 100%;
+}
+.jd-spike{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.jd-spike .spike-title{
+/*     display: block; */
+    height: 2.125rem;
+    line-height: 2.125rem;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.jd-spike .spike-title .spike-title-left{
+    display: inline-block;
+    float: left;
+    width: 68%;
+}
+.jd-spike .spike-title .spike-title-right{
+    width: 32%;
+    display: inline-block;
+    color: #f23030;
+    float: right;
+    font-size: 10px;
+    text-align: right;
+    position: relative;
+    padding-right: 22px;
+}
+.spike-name{
+    margin: .125rem .375rem 0;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1rem;
+    color: #f02b2b;
+    font-weight: 700;
+}
+.spike-time{
+    font-size: 12px;
+    color: #232326;
+    font-weight: 700;
+    display: inline-block;
+}
+.spike-timenow{
+    display: inline-block;
+    background-color: aqua;
+}
+.spike-title-right .more-icon{
+    display: inline-block;
+    width: 0.6875rem;
+    height: 0.6875rem;
+    background: url("../images/arrow_rt.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: .5rem;
+    top: 0.6875rem;
+}
+.spike-container{
+    padding-top: .25rem;
+}
+#commonNav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+/*     font-size: 16px; */
+    height: 13.33333vw;
+    background-color: #fff;
+    z-index: 31;
+}
+#commonNav a{
+    width: 20%;
+    position: relative;
+    float: left;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#commonNav a img{
+    height: 100%;
+    width: 100%;
+}
