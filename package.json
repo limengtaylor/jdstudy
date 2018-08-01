@@ -29,5 +29,9 @@
   },
   "dependencies": {
     "webpack-dev-server": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrainlau/motto.git"
   }
 }
